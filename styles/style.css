@@ -1,0 +1,162 @@
+*{
+    font-family: 'Open Sans', sans-serif;
+  
+}
+
+body{
+    background-color: #F3F1FF;
+}
+.section-info{
+    background-color:#FFFFFF;
+   height: px;
+   width: 800px;
+   padding: 10px 20px;
+   
+  
+   
+}
+
+      /* section1 */
+    
+.section-1{
+    display: flex;
+    flex-direction: column;
+     
+    align-items: center;
+}
+.section-title{
+    color: blueviolet;
+    font-size: 20px;
+    margin-top:0px;
+}
+.top-players{
+display: grid;
+grid-template-columns:repeat(3,1fr);
+gap: 30px;
+
+
+}
+
+
+.player{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+   margin-bottom: 20px;
+   
+    
+
+}
+.player img{
+height: 70px;
+width: 70px;
+
+}
+.player h3{
+    font-size: 16px;
+}
+hr{
+    border: 1px solid red;
+
+}
+                   /* blog */
+
+
+.blog-title {
+    color: blueviolet;
+    font-size: 20px;
+    margin-top:16px;
+
+}
+.blog-info{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 20px;
+    justify-content: center;
+}       
+.blog-img{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.blog-img img{
+    height: 100px;
+    width: 100px;
+
+}
+.blog-title{
+    font-size: 16px;
+}
+.descrip-color{
+    color: blueviolet;
+    font-size: 15px;
+    
+}
+                           /* latest course */
+
+
+.footer{
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-column-gap: 45px;
+}
+.latest-courses{
+    background-color: #FFFFFF;
+    width: 850px;
+    margin-top: 50px;
+    padding: 10px 20px;
+}
+.course-title{
+    font-style: 20px;
+    color: blueviolet;
+    margin-top: 0px;
+}
+.about-course{
+
+    border-radius: 10px;
+}
+.about-course img{
+width: 224px;
+height: 104px;
+}
+.course-name{
+    margin-top: 5px;
+    font-size: 26px;
+    margin-block-end: 0px;
+}
+
+
+.author{
+    margin-top:5px;
+    font-size: 20px;
+    color: red;
+}
+
+.course-info{
+    display: flex;
+    align-items: center;
+   gap: 10px;
+}
+.course-rating{
+ 
+}
+.fa-star.filled{
+    color: #FFC014;
+}
+.fa-star.empty{
+    color: #AEAEAE;
+}
+.duration{
+    background-color:#FFE4E8;
+    height: 40px;
+    width: 100px;
+    border-radius: 5px;
+    
+}
+.fa-clock.filled{
+    color: #FF4A60;
+    margin: 13px 5px;
+
+
+}
